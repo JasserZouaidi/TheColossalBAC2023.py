@@ -3,7 +3,7 @@
 
 def saisir () :
     n = int(input('n='))
-    while (n<3 or n>15) :
+    while not in range(3,20) :
         n = int(input('n='))
     return n
 
